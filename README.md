@@ -1,1 +1,1 @@
-# react-contents-carousel
+# bp-react-carousel
