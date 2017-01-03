@@ -2,7 +2,7 @@ import React from 'react';
 import Swipeable from 'react-swipeable';
 import throttle from 'lodash.throttle';
 
-import './scss/image-gallery.scss';
+import '../styles/image-gallery.scss';
 
 const MIN_INTERVAL = 500;
 const screenChangeEvents = [
