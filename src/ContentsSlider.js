@@ -562,12 +562,12 @@ export default class ContentsSlider extends React.Component {
                                         type='button'
                                         className='image-gallery-left-nav'
                                         disabled={!this._canSlideLeft()}
-                                        onClick={slideLeft}/>
+                                        onClick={slideLeft} />
                                     <button
                                         type='button'
                                         className='image-gallery-right-nav'
                                         disabled={!this._canSlideRight()}
-                                        onClick={slideRight}/>
+                                        onClick={slideRight} />
                                 </span>,
                                 this.props.disableSwipe ?
                                 <div className='image-gallery-slides' key='slides'>

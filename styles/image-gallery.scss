@@ -1,4 +1,4 @@
-@import './ionicons';
+@import './cs';
 
 $ig-screen-sm-min: 768px !default;
 $ig-screen-xsm-min: 480px !default;
@@ -108,11 +108,11 @@ $ig-transparent: rgba(0, 0, 0, 0) !default;
   right: 0;
 
   &::before {
-    content: $ionicon-var-android-expand;
+    content: $awesome-var-android-expand;
   }
 
   &.active::before {
-    content: $ionicon-var-android-contract;
+    content: $awesome-var-android-contract;
   }
 
   &.active:hover::before {
@@ -124,11 +124,11 @@ $ig-transparent: rgba(0, 0, 0, 0) !default;
   left: 0;
 
   &::before {
-    content: $ionicon-var-ios-play;
+    content: $awesome-var-ios-play;
   }
 
   &.active::before {
-    content: $ionicon-var-ios-pause;
+    content: $awesome-var-ios-pause;
   }
 
 }
@@ -136,12 +136,13 @@ $ig-transparent: rgba(0, 0, 0, 0) !default;
 .image-gallery-left-nav,
 .image-gallery-right-nav {
   appearance: none;
-  background-color: transparent;
+  background-color: rgba(0.3, 0.3, 0.3, 0.5);
   border: 0;
+  border-radius: 50%;
   color: $ig-white;
-  font-size: 5em;
+  font-size: 4em;
   outline: none;
-  padding: 50px 15px;
+  padding: 15px 15px;
   top: 50%;
   transform: translateY(-50%);
 
@@ -152,11 +153,11 @@ $ig-transparent: rgba(0, 0, 0, 0) !default;
   }
 
   @media (max-width: $ig-screen-sm-min) {
-    font-size: 3.4em;
+    font-size: 2.4em;
   }
 
   @media (max-width: $ig-screen-xsm-min) {
-    font-size: 2.4em;
+    font-size: 1.2em;
   }
 }
 
@@ -164,7 +165,7 @@ $ig-transparent: rgba(0, 0, 0, 0) !default;
   left: 0;
 
   &::before {
-    content: $ionicon-var-ios-arrow-left;
+    content: $awesome-var-ios-arrow-left;
   }
 }
 
@@ -172,7 +173,7 @@ $ig-transparent: rgba(0, 0, 0, 0) !default;
   right: 0;
 
   &::before {
-    content: $ionicon-var-ios-arrow-right;
+    content: $awesome-var-ios-arrow-right;
   }
 }
 
